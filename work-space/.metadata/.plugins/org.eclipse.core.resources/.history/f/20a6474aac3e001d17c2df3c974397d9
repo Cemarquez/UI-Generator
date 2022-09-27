@@ -1,0 +1,18 @@
+/*
+ * 
+ */
+package ui_concrete.diagram.edit.helpers;
+
+/**
+ * @generated
+ */
+public class Ui_concreteBaseEditHelper extends org.eclipse.gmf.tooling.runtime.edit.helpers.GeneratedEditHelperBase {
+
+		
+		
+	
+	
+	
+	
+	
+	}

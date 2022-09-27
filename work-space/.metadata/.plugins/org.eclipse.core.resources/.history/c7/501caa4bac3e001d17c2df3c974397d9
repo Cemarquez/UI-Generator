@@ -1,0 +1,17 @@
+/*
+ * 
+ */
+package ui_concrete.diagram.preferences;
+
+/**
+ * @generated
+ */
+public class DiagramAppearancePreferencePage extends org.eclipse.gmf.runtime.diagram.ui.preferences.AppearancePreferencePage {
+
+	/**
+ * @generated
+ */
+	public DiagramAppearancePreferencePage() {
+		setPreferenceStore(ui_concrete.diagram.part.Ui_concreteDiagramEditorPlugin.getInstance().getPreferenceStore());
+	}
+}

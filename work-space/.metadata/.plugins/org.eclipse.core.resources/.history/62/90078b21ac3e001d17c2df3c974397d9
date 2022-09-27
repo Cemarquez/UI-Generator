@@ -1,0 +1,17 @@
+	/*
+ * 
+ */
+package ui_diagram.diagram.part;
+
+	/**
+ * @generated
+ */
+public class Ui_diagramNodeDescriptor extends org.eclipse.gmf.tooling.runtime.update.UpdaterNodeDescriptor {
+		/**
+ * @generated
+ */
+public Ui_diagramNodeDescriptor(org.eclipse.emf.ecore.EObject modelElement, int visualID) {
+	super(modelElement, visualID);
+}
+
+	}

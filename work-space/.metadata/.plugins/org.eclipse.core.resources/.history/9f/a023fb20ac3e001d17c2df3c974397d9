@@ -1,0 +1,23 @@
+/*
+ * 
+ */
+package ui_diagram.diagram.providers.assistants;
+
+/**
+ * @generated
+ */
+public class Ui_diagramModelingAssistantProviderOfUI_DiagramEditPart extends ui_diagram.diagram.providers.Ui_diagramModelingAssistantProvider {
+
+				/**
+ * @generated
+ */
+	@Override
+
+	public java.util.List<org.eclipse.gmf.runtime.emf.type.core.IElementType> getTypesForPopupBar(org.eclipse.core.runtime.IAdaptable host) {
+		java.util.List<org.eclipse.gmf.runtime.emf.type.core.IElementType> types = new java.util.ArrayList<org.eclipse.gmf.runtime.emf.type.core.IElementType>(1);
+					types.add(ui_diagram.diagram.providers.Ui_diagramElementTypes.UserInterface_2001);
+					return types;	
+	}
+			
+	
+	}
