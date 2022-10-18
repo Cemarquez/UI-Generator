@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:ui_concrete="http://ui_concrete" xmi:id="_oavU4E2sEe2f78-lEc2R2g" type="Ui_concrete" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_MA_IoE5-Ee2nsMhQ3l9Rkg" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:BasicCompartment" xmi:id="_MA_vsE5-Ee2nsMhQ3l9Rkg" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_M3rgEE5-Ee2nsMhQ3l9Rkg" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_M3sHIE5-Ee2nsMhQ3l9Rkg" type="5009"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_M3sHIU5-Ee2nsMhQ3l9Rkg" type="7002">
+          <children xmi:type="notation:Shape" xmi:id="_OWzwgE5-Ee2nsMhQ3l9Rkg" type="3004" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_OW0XkE5-Ee2nsMhQ3l9Rkg" type="5002"/>
+            <element xmi:type="ui_concrete:Label" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OWzwgU5-Ee2nsMhQ3l9Rkg" x="15" y="19" width="66" height="22"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_V_we4E5-Ee2nsMhQ3l9Rkg" type="3004" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_V_we4k5-Ee2nsMhQ3l9Rkg" type="5002"/>
+            <element xmi:type="ui_concrete:Label" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.1"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V_we4U5-Ee2nsMhQ3l9Rkg" x="15" y="64" width="61" height="21"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_YEgk4E5-Ee2nsMhQ3l9Rkg" type="3006" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_YEgk4k5-Ee2nsMhQ3l9Rkg" type="5004"/>
+            <element xmi:type="ui_concrete:TextInput" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.2"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YEgk4U5-Ee2nsMhQ3l9Rkg" x="100" y="9" width="211" height="36"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_d-Au4E5-Ee2nsMhQ3l9Rkg" type="3006" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_d-Au4k5-Ee2nsMhQ3l9Rkg" type="5004"/>
+            <element xmi:type="ui_concrete:TextInput" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.3"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d-Au4U5-Ee2nsMhQ3l9Rkg" x="100" y="54" width="211" height="36"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_gcQ6AE5-Ee2nsMhQ3l9Rkg" type="3009" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_gcQ6Ak5-Ee2nsMhQ3l9Rkg" type="5007"/>
+            <element xmi:type="ui_concrete:RadioButton" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.4"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcQ6AU5-Ee2nsMhQ3l9Rkg" x="110" y="104" height="21"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_idi1QE5-Ee2nsMhQ3l9Rkg" type="3009" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_idi1Qk5-Ee2nsMhQ3l9Rkg" type="5007"/>
+            <element xmi:type="ui_concrete:RadioButton" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.5"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_idi1QU5-Ee2nsMhQ3l9Rkg" x="205" y="104" width="71" height="21"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_oTSgoE5-Ee2nsMhQ3l9Rkg" type="3005" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_oTSgok5-Ee2nsMhQ3l9Rkg" type="5003"/>
+            <element xmi:type="ui_concrete:CheckBox" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.6"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oTSgoU5-Ee2nsMhQ3l9Rkg" x="135" y="149" width="231" height="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sSMmME5-Ee2nsMhQ3l9Rkg" type="3003">
+            <children xmi:type="notation:DecorationNode" xmi:id="_sSNNQE5-Ee2nsMhQ3l9Rkg" type="5001"/>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_sSMmMU5-Ee2nsMhQ3l9Rkg"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_sSMmMk5-Ee2nsMhQ3l9Rkg" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_sSMmM05-Ee2nsMhQ3l9Rkg"/>
+            <element xmi:type="ui_concrete:Button" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.7"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sSMmNE5-Ee2nsMhQ3l9Rkg" x="170" y="179" width="171" height="36"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_5s5l4E6AEe2CA64iGh5Vfw" type="3007" fontName="Segoe UI">
+            <element xmi:type="ui_concrete:Image" href="model.ui_concrete#//@userInterface/@lstModelElements.0/@lstChildModelElements.8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5s5l4U6AEe2CA64iGh5Vfw" x="355" y="4" width="91" height="91"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_M3rgEU5-Ee2nsMhQ3l9Rkg"/>
+        <element xmi:type="ui_concrete:Group" href="model.ui_concrete#//@userInterface/@lstModelElements.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M3rgEk5-Ee2nsMhQ3l9Rkg" x="15" y="4" width="501" height="281"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yzUJ0E5-Ee2nsMhQ3l9Rkg" type="3001" fontName="Segoe UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yzUw4E5-Ee2nsMhQ3l9Rkg" type="5009"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_yzUw4U5-Ee2nsMhQ3l9Rkg" type="7002">
+          <children xmi:type="notation:Shape" xmi:id="_1wfsoE5-Ee2nsMhQ3l9Rkg" type="3008" fontName="Segoe UI">
+            <children xmi:type="notation:DecorationNode" xmi:id="_1wfsok5-Ee2nsMhQ3l9Rkg" type="5006"/>
+            <element xmi:type="ui_concrete:List" href="model.ui_concrete#//@userInterface/@lstModelElements.1/@lstChildModelElements.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1wfsoU5-Ee2nsMhQ3l9Rkg" x="15" y="4" width="456" height="156"/>
+          </children>
+        </children>
+        <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_yzUJ0U5-Ee2nsMhQ3l9Rkg"/>
+        <element xmi:type="ui_concrete:Group" href="model.ui_concrete#//@userInterface/@lstModelElements.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yzUJ0k5-Ee2nsMhQ3l9Rkg" x="15" y="299" width="501" height="211"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_MA_IoU5-Ee2nsMhQ3l9Rkg"/>
+    <element xmi:type="ui_concrete:UserInterface" href="model.ui_concrete#//@userInterface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MA_Iok5-Ee2nsMhQ3l9Rkg" x="105" y="-5" width="546" height="586"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_oavU4U2sEe2f78-lEc2R2g"/>
+  <element xmi:type="ui_concrete:UI_Diagram" href="model.ui_concrete#/"/>
+</notation:Diagram>

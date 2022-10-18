@@ -1,0 +1,48 @@
+	protected void handleNotificationEvent(Notification arg0) {
+
+		if (arg0.getEventType() == Notification.SET) {
+			// the notifier sends his new Bounds ...
+			/**
+			 	<property name="label" translatable="yes">Acepto los terminos y condiciones y autorizo el
+				tratamiento de mis datos personales.</property>
+			    <property name="width-request">300</property>
+			    <property name="height-request">80</property>
+			    <property name="visible">True</property>
+			    <property name="can-focus">True</property>
+			    <property name="receives-default">False</property>
+			    <property name="draw-indicator">True</property>
+			 **/
+			if (arg0.getNotifier() instanceof BoundsImpl) {
+				NodeImpl node = (NodeImpl) this.getModel();
+				CheckBox model = (CheckBox) node.getElement();
+				model.setSelected(false);
+				BoundsImpl notifier = (BoundsImpl) arg0.getNotifier();
+
+				// for my special coordinate mapping i also need the node,
+				// so i save it in this variable ...
+
+				if (arg0.getFeature() instanceof EAttributeImpl) {
+					// Get the attribute that has changed
+					EAttributeImpl attribute = (EAttributeImpl) arg0.getFeature();
+					// set the values for x and y in the model
+					if (notifier.getWidth() == -1) {
+						model.setWidth(120);
+					} else {
+						model.setWidth(notifier.getWidth());
+					}
+					if (notifier.getHeight() == -1) {
+						model.setHeight(20);
+					} else {
+						model.setHeight(notifier.getHeight());
+					}
+
+					model.setPositionX(notifier.getX());
+					model.setPositionY(notifier.getY());
+
+				}
+			}
+
+		}
+
+		super.handleNotificationEvent(arg0);
+	}

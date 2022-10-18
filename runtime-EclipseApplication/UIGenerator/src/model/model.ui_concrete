@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui_concrete:UI_Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui_concrete="http://ui_concrete">
+  <userInterface name="VentanaPrincipal" width="546" height="586">
+    <lstModelElements xsi:type="ui_concrete:Group" name="registro" positionX="15" positionY="4" width="501" height="281" title="Registrarse">
+      <lstChildModelElements xsi:type="ui_concrete:Label" name="Nombre" positionX="15" positionY="19" width="66" height="22" backgroundColor="#dededddddada" text="Nombre: " font="Sans Bold 10" foregroundColor="#000000000000" style="normal"/>
+      <lstChildModelElements xsi:type="ui_concrete:Label" name="Cedula" positionX="15" positionY="64" width="61" height="21" backgroundColor="#dededddddada" text="Cedula: " font="Sans Bold 10" foregroundColor="#000000000000" style="normal"/>
+      <lstChildModelElements xsi:type="ui_concrete:TextInput" name="nombretext" positionX="100" positionY="9" width="211" height="36" placeHolder="Ingrese su nombre"/>
+      <lstChildModelElements xsi:type="ui_concrete:TextInput" name="cedulatext" positionX="100" positionY="54" width="211" height="36" placeHolder="Ingrese su cedula"/>
+      <lstChildModelElements xsi:type="ui_concrete:RadioButton" name="Hombre" positionX="110" positionY="104" width="120" height="21" text="Hombre" group="null"/>
+      <lstChildModelElements xsi:type="ui_concrete:RadioButton" name="Mujer" positionX="205" positionY="104" width="71" height="21" text="Mujer" group="radioHombre"/>
+      <lstChildModelElements xsi:type="ui_concrete:CheckBox" name="chechacepto" positionX="135" positionY="149" width="231" height="21" selected="true" text="Acepto los terminos y condiciones"/>
+      <lstChildModelElements xsi:type="ui_concrete:Button" name="enviarbutton" positionX="170" positionY="179" width="171" height="36" text="Enviar" visible="true"/>
+      <lstChildModelElements xsi:type="ui_concrete:Image" positionX="355" positionY="4" width="91" height="91"/>
+    </lstModelElements>
+    <lstModelElements xsi:type="ui_concrete:Group" name="Registros" positionX="15" positionY="299" width="501" height="211" title="Registros">
+      <lstChildModelElements xsi:type="ui_concrete:List" name="Usuarios" positionX="15" positionY="4" width="456" height="156"/>
+    </lstModelElements>
+  </userInterface>
+</ui_concrete:UI_Diagram>

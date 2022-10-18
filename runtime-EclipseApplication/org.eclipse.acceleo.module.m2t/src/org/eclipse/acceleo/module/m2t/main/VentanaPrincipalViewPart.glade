@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<interface>
+	<requires lib="gtk+" version="2.16"/>
+	<!-- interface-naming-policy project-wide -->
+	<object class="GtkWindow" id="VentanaPrincipal">
+  		<child>
+			<object class="GtkFixed" id="fixMain">
+        		<property name="width_request">546</property>
+        		<property name="height_request">541</property>
+        		<property name="visible">True</property>	
+				<child>
+					<object class="GtkFrame" id="frameregistro">
+						<property name="width_request">501</property>
+						<property name="height_request">281</property>
+						<property name="visible">True</property>
+						<property name="border_width">1</property>
+						<property name="label_xalign">0</property>
+						<property name="shadow_type">out</property>
+						<child>
+				              <object class="GtkFixed" id="fixregistro">
+				                <property name="visible">True</property>
+				                <property name="can-focus">False</property>
+									<child>
+										<object class="GtkLabel" id="lblNombre">
+											<property name="width-request">66</property>
+											<property name="height-request">22</property>
+											<property name="visible">True</property>
+											<property name="can-focus">False</property>
+											<property name="label" translatable="yes">Nombre: </property>
+											<attributes>
+												<attribute name="font-desc" value="Sans Bold 10"/>
+												<attribute name="style" value="normal"/>
+												<attribute name="scale" value="1"/>
+												<attribute name="underline" value="false"/>
+												<attribute name="strikethrough" value="false"/>
+												<attribute name="foreground" value="#000000000000"/>
+											</attributes>
+										</object>
+										<packing>
+										<property name="x">15</property>
+										<property name="y">19</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkLabel" id="lblCedula">
+											<property name="width-request">61</property>
+											<property name="height-request">21</property>
+											<property name="visible">True</property>
+											<property name="can-focus">False</property>
+											<property name="label" translatable="yes">Cedula: </property>
+											<attributes>
+												<attribute name="font-desc" value="Sans Bold 10"/>
+												<attribute name="style" value="normal"/>
+												<attribute name="scale" value="1"/>
+												<attribute name="underline" value="false"/>
+												<attribute name="strikethrough" value="false"/>
+												<attribute name="foreground" value="#000000000000"/>
+											</attributes>
+										</object>
+										<packing>
+										<property name="x">15</property>
+										<property name="y">64</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkEntry" id="entrynombretext">
+											<property name="width-request">211</property>
+											<property name="height-request">36</property>
+											<property name="visible">True</property>
+											<property name="can-focus">True</property>
+											<property name="invisible-char">●</property>
+											<property name="shadow-type">etched-out</property>
+											<property name="placeholder-text" translatable="yes">Ingrese su nombre</property>
+										</object>
+										<packing>
+											<property name="x">100</property>
+											<property name="y">9</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkEntry" id="entrycedulatext">
+											<property name="width-request">211</property>
+											<property name="height-request">36</property>
+											<property name="visible">True</property>
+											<property name="can-focus">True</property>
+											<property name="invisible-char">●</property>
+											<property name="shadow-type">etched-out</property>
+											<property name="placeholder-text" translatable="yes">Ingrese su cedula</property>
+										</object>
+										<packing>
+											<property name="x">100</property>
+											<property name="y">54</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkRadioButton" id="radioHombre">
+											<property name="label" translatable="yes">Hombre</property>
+											<property name="width_request">120</property>
+											<property name="height_request">21</property>
+											<property name="visible">True</property>
+											<property name="can_focus">True</property>
+											<property name="receives_default">False</property>
+											<property name="active">True</property>
+											<property name="draw_indicator">True</property>
+											
+										</object>
+										<packing>
+											<property name="x">110</property>
+											<property name="y">104</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkRadioButton" id="radioMujer">
+											<property name="label" translatable="yes">Mujer</property>
+											<property name="width_request">71</property>
+											<property name="height_request">21</property>
+											<property name="visible">True</property>
+											<property name="can_focus">True</property>
+											<property name="receives_default">False</property>
+											<property name="active">True</property>
+											<property name="draw_indicator">True</property>
+											<property name="group">radioHombre</property>
+											
+										</object>
+										<packing>
+											<property name="x">205</property>
+											<property name="y">104</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkCheckButton" id="checkchechacepto">
+											<property name="label" translatable="yes">Acepto los terminos y condiciones</property>
+											<property name="width-request">231</property>
+											<property name="height-request">21</property>
+											<property name="visible">True</property>
+											<property name="can-focus">True</property>
+											<property name="receives-default">False</property>
+											<property name="draw-indicator">True</property>
+											<property name="active">true</property>
+										</object>
+										<packing>
+											<property name="x">135</property>
+											<property name="y">149</property>
+										</packing>
+									</child>
+									<child>
+										<object class="GtkButton" id="buttonenviarbutton">
+											<property name="label" translatable="yes">Enviar</property>
+											<property name="width_request">171</property>
+											<property name="height_request">36</property>
+											<property name="visible">true</property>
+											<property name="can_focus">True</property>
+											<property name="receives_default">True</property>
+										</object>
+										<packing>
+											<property name="x">170</property>
+											<property name="y">179</property>
+										</packing>
+									</child>
+				              </object>
+				        </child>
+						<child type="label">
+				              <object class="GtkLabel" id="lblregistro">
+				                <property name="visible">True</property>
+				                <property name="can-focus">False</property>
+				                <property name="label" translatable="yes">&lt;b&gt;Registrarse&lt;/b&gt;</property>
+				                <property name="use-markup">True</property>
+				              </object>
+				            </child>
+					</object>
+					<packing>
+						<property name="x">15</property>
+						<property name="y">4</property>
+					</packing>
+				</child>
+				
+				
+				<child>
+					<object class="GtkFrame" id="frameRegistros">
+						<property name="width_request">501</property>
+						<property name="height_request">211</property>
+						<property name="visible">True</property>
+						<property name="border_width">1</property>
+						<property name="label_xalign">0</property>
+						<property name="shadow_type">out</property>
+						<child>
+				              <object class="GtkFixed" id="fixRegistros">
+				                <property name="visible">True</property>
+				                <property name="can-focus">False</property>
+									<child>
+										<object class="GtkTreeView" id="treeviewUsuarios">
+											<property name="width-request">456"</property>
+												<property name="height-request">156"</property>
+												<property name="visible">True</property>
+												<property name="can-focus">True</property>
+											</object>
+											<packing>
+												<property name="x">15"</property>
+												<property name="y">4"</property>
+										</packing>
+									</child>
+				              </object>
+				        </child>
+						<child type="label">
+				              <object class="GtkLabel" id="lblRegistros">
+				                <property name="visible">True</property>
+				                <property name="can-focus">False</property>
+				                <property name="label" translatable="yes">&lt;b&gt;Registros&lt;/b&gt;</property>
+				                <property name="use-markup">True</property>
+				              </object>
+				            </child>
+					</object>
+					<packing>
+						<property name="x">15</property>
+						<property name="y">299</property>
+					</packing>
+				</child>
+				
+				
+				
+  			</object>
+   		 </child>
+	</object>
+</interface>
+

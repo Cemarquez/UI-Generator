@@ -1,0 +1,77 @@
+	protected void handleNotificationEvent(Notification arg0) {
+
+		// SET was the type i need
+		if (arg0.getEventType() == Notification.CREATE) {
+			
+			/**
+			<attribute name="font-desc" value="Sans Bold 10"/>
+			<attribute name="style" value="italic"/>
+			<attribute name="scale" value="1"/>
+			<attribute name="underline" value="True"/>
+			<attribute name="strikethrough" value="True"/>
+			<attribute name="foreground" value="#c0c01c1c2828"/>
+			<attribute name="background" value="#c0c0bfbfbcbc"/>
+			**/
+
+		} else if (arg0.getEventType() == Notification.SET) {
+			// the notifier sends his new Bounds ...
+			if (arg0.getNotifier() instanceof BoundsImpl) {
+
+				
+
+				NodeImpl node = (NodeImpl) this.getModel();
+				Label model = (Label) node.getElement();
+				model.setFont("Sans Bold 10");
+				model.setStyle("normal");
+				model.setBackgroundColor("#ffffffffffff");
+				model.setForegroundColor("#000000000000");
+				model.setUnderline(false);
+				model.setStrikethrough(false);
+				BoundsImpl notifier = (BoundsImpl) arg0.getNotifier();
+				
+				// for my special coordinate mapping i also need the node,
+				// so i save it in this variable ...
+
+				if (arg0.getFeature() instanceof EAttributeImpl) {
+					// Get the attribute that has changed
+					EAttributeImpl attribute = (EAttributeImpl) arg0.getFeature();
+					// set the values for x and y in the model
+					model.setName("lbl"+model.getText());
+					if (notifier.getWidth() == -1) {
+						model.setWidth(120);
+					} else {
+						model.setWidth(notifier.getWidth());
+					}
+					if (notifier.getHeight() == -1) {
+						model.setHeight(20);
+					} else {
+						model.setHeight(notifier.getHeight());
+					}
+
+					model.setPositionX(notifier.getX());
+					model.setPositionY(notifier.getY());
+
+				}
+			}
+			if (arg0.getNotifier() instanceof FontStyleImpl) {
+				FontStyleImpl fontStyleImpl = (FontStyleImpl) arg0.getNotifier();
+				int fontColor = fontStyleImpl.getFontColor();
+				String fontName = fontStyleImpl.getFontName();
+				boolean underline = fontStyleImpl.isUnderline();
+				boolean strike = fontStyleImpl.isStrikeThrough();
+
+				NodeImpl node = (NodeImpl) this.getModel();
+				Label model = (Label) node.getElement();
+
+				model.setFont("" + fontName);
+				model.setForegroundColor(fontColor + "");
+				model.setUnderline(underline);
+				model.setStrikethrough(strike);
+
+				System.out.println();
+			}
+
+		}
+
+		super.handleNotificationEvent(arg0);
+	}
