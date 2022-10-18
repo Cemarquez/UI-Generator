@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;ui_concrete.emf&apos; to &apos;model&apos;" description="Move &apos;ui_concrete.emf&apos; to &apos;model&apos;" destination="model" element1="/UI-Abstract/model/ui_concrete.emf" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1664314301679" updateReferences="true"/>
-</session>
